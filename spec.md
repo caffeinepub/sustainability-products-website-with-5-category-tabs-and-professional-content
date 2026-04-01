@@ -1,26 +1,24 @@
-# GE3S Website – Product Pricing
+# GE3S Newsletter Source Links
 
 ## Current State
-Product cards display name, description, category image, and an Add to Cart button. No pricing is shown anywhere. ProductGroup has only `name` and `description` fields.
+The site has 12 newsletters in `src/frontend/src/content/newsletterContent.ts`. Each newsletter has: id, issueNumber, date, subject, excerpt, heroImage, category, body, serviceSpotlight, sustainabilityFact. No sources/references field exists.
 
 ## Requested Changes (Diff)
 
 ### Add
-- `price` field to `ProductGroup` interface: `{ aed: string; usd: string; isQuote: boolean; note?: string }`
-- UAE market pricing (incl. 5% VAT) in AED and USD for all products across all 6 categories
-- Product detail modal/drawer that opens when user clicks a product card, showing full description, pricing, and a CTA
-- "Request a Quote" label for large-scale/custom systems (BESS containers, grid storage, large water treatment, MRFs, wind turbines, etc.)
+- `sources` field to the `Newsletter` interface: `{ label: string; url: string }[]`
+- Real external reference links for all 12 newsletters (UN, WHO, IEA, IRENA, UNEP, etc.)
+- ge3s.org link as a source in each newsletter
+- A "References" section rendered at the bottom of each newsletter detail view
 
 ### Modify
-- `catalogueContent.ts` – add `price` to every ProductGroup
-- `CategorySection.tsx` – product cards become clickable; clicking opens a detail modal with pricing info
+- Newsletter interface and newsletterContent.ts: add sources to all 12 newsletters
+- NewsletterDetail.tsx: render References section before email footer
 
 ### Remove
-- Nothing removed
+- Nothing
 
 ## Implementation Plan
-1. Update `ProductGroup` interface in `catalogueContent.ts` to include `price`
-2. Add pricing data for all ~50 products across 6 categories (AED + USD incl. VAT, or isQuote=true)
-3. In `CategorySection.tsx`, add a Dialog-based product detail modal
-4. Product card click opens the modal showing: image, name, description, AED price, USD price, VAT note, Add to Cart button
-5. Cards show a small "View Details" hint but no price on the card itself
+1. Add sources field to Newsletter interface
+2. Populate sources for all 12 newsletters with 3-5 relevant external links + ge3s.org
+3. Update NewsletterDetail.tsx to render a References section with numbered clickable links

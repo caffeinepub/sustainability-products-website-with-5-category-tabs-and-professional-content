@@ -105,7 +105,7 @@ function ProductDetailModal({
 
   const cartItem = items.find((item) => item.productName === product.name);
   const inCart = !!cartItem;
-  const categoryImage = categoryImages[categoryId];
+  const categoryImage = product.image ?? categoryImages[categoryId];
 
   const handleAddToCart = () => {
     addToCart(product.name, categoryTitle);
@@ -124,7 +124,7 @@ function ProductDetailModal({
           <div className="relative h-48 overflow-hidden rounded-t-lg">
             <img
               src={categoryImage}
-              alt={categoryTitle}
+              alt={product.name}
               className="w-full h-full object-cover"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent" />
@@ -147,6 +147,9 @@ function ProductDetailModal({
             <DialogTitle className="text-xl font-bold text-foreground leading-snug">
               {product.name}
             </DialogTitle>
+            <p className="text-xs text-muted-foreground font-mono mt-1">
+              SKU: {product.sku}
+            </p>
           </DialogHeader>
 
           {/* Description */}
@@ -228,7 +231,7 @@ function ProductCard({
     setTimeout(() => setJustAdded(false), 1200);
   };
 
-  const categoryImage = categoryImages[categoryId];
+  const categoryImage = product.image ?? categoryImages[categoryId];
 
   return (
     <article
@@ -247,7 +250,7 @@ function ProductCard({
           <div className="relative h-36 overflow-hidden">
             <img
               src={categoryImage}
-              alt={category}
+              alt={product.name}
               className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent" />
@@ -262,6 +265,9 @@ function ProductCard({
           <h4 className="text-base font-semibold text-foreground mb-2 group-hover:text-primary transition-colors leading-snug text-left">
             {product.name}
           </h4>
+          <p className="text-xs text-muted-foreground font-mono mb-1">
+            SKU: {product.sku}
+          </p>
           <p className="text-sm text-muted-foreground leading-relaxed line-clamp-3 text-left">
             {product.description}
           </p>

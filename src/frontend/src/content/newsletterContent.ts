@@ -20,6 +20,7 @@ export interface Newsletter {
   body: NewsletterSection[];
   serviceSpotlight: NewsletterServiceSpotlight;
   sustainabilityFact: string;
+  sources: { label: string; url: string }[];
 }
 
 export const newsletterContent: Newsletter[] = [
@@ -63,6 +64,25 @@ export const newsletterContent: Newsletter[] = [
     },
     sustainabilityFact:
       "The UAE's Mohammed bin Rashid Al Maktoum Solar Park will be the world's largest single-site solar project at 5 GW capacity — enough to power 1.3 million homes and reduce carbon emissions by 6.5 million tonnes annually.",
+    sources: [
+      {
+        label: "UAE Net Zero by 2050 Strategic Initiative",
+        url: "https://u.ae/en/information-and-services/environment-and-energy/climate-change/uaenetzero2050",
+      },
+      {
+        label: "UAE Ministry of Climate Change and Environment",
+        url: "https://www.moccae.gov.ae",
+      },
+      {
+        label: "IRENA – UAE Renewable Energy Profile",
+        url: "https://www.irena.org/Countries/United-Arab-Emirates",
+      },
+      {
+        label: "Abu Dhabi Sustainable Finance Declaration",
+        url: "https://www.centralbank.ae/en/sustainability",
+      },
+      { label: "GE3S – Renewable Energy Solutions", url: "https://ge3s.org" },
+    ],
   },
   {
     id: "water-scarcity-mena",
@@ -105,6 +125,25 @@ export const newsletterContent: Newsletter[] = [
     },
     sustainabilityFact:
       "The MENA region has the highest per-capita desalination capacity in the world, producing over 40% of global desalinated water — yet freshwater demand is expected to exceed supply by 50% by 2030 without aggressive efficiency measures.",
+    sources: [
+      {
+        label: "UN Water – Water Scarcity",
+        url: "https://www.unwater.org/water-facts/scarcity",
+      },
+      {
+        label: "WHO – Drinking Water",
+        url: "https://www.who.int/news-room/fact-sheets/detail/drinking-water",
+      },
+      {
+        label: "World Bank – Water in MENA",
+        url: "https://www.worldbank.org/en/topic/water/brief/water-in-the-mena-region",
+      },
+      {
+        label: "AQUASTAT – FAO Water Resources",
+        url: "https://www.fao.org/aquastat/en",
+      },
+      { label: "GE3S – Water Treatment Solutions", url: "https://ge3s.org" },
+    ],
   },
   {
     id: "solar-boom-gcc",
@@ -147,6 +186,25 @@ export const newsletterContent: Newsletter[] = [
     },
     sustainabilityFact:
       "The GCC region receives among the highest solar irradiance in the world — averaging 2,000-2,800 kWh/m²/year — making it technically capable of generating 100x its current total electricity consumption from solar energy alone.",
+    sources: [
+      {
+        label: "IRENA – Renewable Power Generation Costs",
+        url: "https://www.irena.org/publications/2024/Sep/Renewable-Power-Generation-Costs-in-2023",
+      },
+      {
+        label: "IEA – Solar PV Global Supply Chains",
+        url: "https://www.iea.org/reports/solar-pv-global-supply-chains",
+      },
+      {
+        label: "DEWA – Mohammed bin Rashid Al Maktoum Solar Park",
+        url: "https://www.dewa.gov.ae/en/about-dewa/news-and-media/press-and-news/latest-news/2024/01/mohammed-bin-rashid-al-maktoum-solar-park",
+      },
+      {
+        label: "Saudi Vision 2030 – Renewable Energy",
+        url: "https://www.vision2030.gov.sa/v2030/v2030-programs/nrep",
+      },
+      { label: "GE3S – Solar Energy Services", url: "https://ge3s.org" },
+    ],
   },
   {
     id: "cop29-climate-action",
@@ -189,6 +247,25 @@ export const newsletterContent: Newsletter[] = [
     },
     sustainabilityFact:
       "According to the UN Environment Programme's 2025 Emissions Gap Report, current global NDC commitments put the world on track for 2.6°C of warming by 2100 — still far above the 1.5°C Paris Agreement target, making business-level climate action more critical than ever.",
+    sources: [
+      { label: "UNFCCC – COP29 Azerbaijan", url: "https://unfccc.int/cop29" },
+      {
+        label: "IPCC – Sixth Assessment Report",
+        url: "https://www.ipcc.ch/assessment-report/ar6",
+      },
+      {
+        label: "Climate Action Tracker",
+        url: "https://climateactiontracker.org",
+      },
+      {
+        label: "Carbon Brief – COP29 Coverage",
+        url: "https://www.carbonbrief.org/category/cop29",
+      },
+      {
+        label: "GE3S – Climate & Sustainability Services",
+        url: "https://ge3s.org",
+      },
+    ],
   },
   {
     id: "smart-buildings-iot",
@@ -231,6 +308,22 @@ export const newsletterContent: Newsletter[] = [
     },
     sustainabilityFact:
       "Buildings consume 36% of global final energy and are responsible for 39% of energy-related CO2 emissions. Yet smart building retrofits can reduce a building's energy use by up to 40% with typical payback periods of 2-5 years — making it one of the most cost-effective climate solutions available today.",
+    sources: [
+      {
+        label: "IEA – Buildings – Tracking Clean Energy Progress",
+        url: "https://www.iea.org/energy-system/buildings",
+      },
+      {
+        label: "UNEP – Sustainable Buildings & Construction",
+        url: "https://www.unep.org/explore-topics/resource-efficiency/what-we-do/buildings-and-construction",
+      },
+      {
+        label: "Dubai Green Building Regulations",
+        url: "https://www.dewa.gov.ae/en/about-dewa/news-and-media/press-and-news/latest-news/2024/green-buildings",
+      },
+      { label: "World Green Building Council", url: "https://worldgbc.org" },
+      { label: "GE3S – Smart Monitoring Solutions", url: "https://ge3s.org" },
+    ],
   },
   {
     id: "green-construction-2025",
@@ -274,6 +367,28 @@ export const newsletterContent: Newsletter[] = [
     },
     sustainabilityFact:
       "The construction industry produces approximately 1.3 billion tonnes of construction and demolition waste globally each year — more than any other sector. Circular construction practices, including material reuse and recycled aggregates, could reduce this waste stream by up to 50% while cutting material costs by 15-25%.",
+    sources: [
+      {
+        label: "USGBC – LEED Green Building",
+        url: "https://www.usgbc.org/leed",
+      },
+      {
+        label: "Estidama Pearl Rating System",
+        url: "https://www.upc.gov.ae/en/estidama/pearl-rating-system",
+      },
+      {
+        label: "Global Alliance for Buildings and Construction",
+        url: "https://globalabc.org",
+      },
+      {
+        label: "IEA – Buildings Sector Energy Data",
+        url: "https://www.iea.org/energy-system/buildings",
+      },
+      {
+        label: "GE3S – Eco-friendly Construction Materials",
+        url: "https://ge3s.org",
+      },
+    ],
   },
   {
     id: "bess-grid-stability",
@@ -316,6 +431,28 @@ export const newsletterContent: Newsletter[] = [
     },
     sustainabilityFact:
       "By 2030, the global BESS market is projected to reach USD 120 billion annually, with lithium-ion battery costs expected to fall below USD 60/kWh — making grid-scale storage economically comparable to gas peaker plants in virtually every electricity market on earth.",
+    sources: [
+      {
+        label: "IRENA – Electricity Storage & Renewables",
+        url: "https://www.irena.org/publications/2017/Oct/Electricity-Storage-and-Renewables-Costs-and-Markets",
+      },
+      {
+        label: "IEA – Energy Storage",
+        url: "https://www.iea.org/energy-system/electricity/grid-scale-storage",
+      },
+      {
+        label: "BloombergNEF – Energy Storage Market Outlook",
+        url: "https://about.bnef.com/blog/energy-storage-market-outlook",
+      },
+      {
+        label: "Rocky Mountain Institute – The Economics of Battery Storage",
+        url: "https://rmi.org/insight/economics-battery-energy-storage",
+      },
+      {
+        label: "GE3S – Battery Energy Storage Systems",
+        url: "https://ge3s.org",
+      },
+    ],
   },
   {
     id: "circular-economy-waste",
@@ -358,6 +495,25 @@ export const newsletterContent: Newsletter[] = [
     },
     sustainabilityFact:
       "Only 9% of all plastic ever produced has been recycled. The remaining 91% ends up in landfills, incineration, or the natural environment. Transitioning to a circular plastics economy could generate USD 200 billion in annual economic value while eliminating 80% of plastic ocean pollution.",
+    sources: [
+      {
+        label: "UNEP – Circular Economy",
+        url: "https://www.unep.org/explore-topics/resource-efficiency/what-we-do/responsible-industry/circular-economy",
+      },
+      {
+        label: "Ellen MacArthur Foundation – Circular Economy",
+        url: "https://www.ellenmacarthurfoundation.org/topics/circular-economy/overview",
+      },
+      {
+        label: "World Bank – Waste Management",
+        url: "https://www.worldbank.org/en/topic/urbandevelopment/brief/solid-waste-management",
+      },
+      {
+        label: "UAE Ministry of Climate – Waste Management",
+        url: "https://www.moccae.gov.ae/en/knowledge-and-statistics/waste-management.aspx",
+      },
+      { label: "GE3S – Waste Management Solutions", url: "https://ge3s.org" },
+    ],
   },
   {
     id: "carbon-markets-2025",
@@ -400,6 +556,25 @@ export const newsletterContent: Newsletter[] = [
     },
     sustainabilityFact:
       "Over 8,400 companies have committed to Science-Based Targets as of early 2026 — representing USD 38 trillion in market capitalisation. Companies with validated net zero targets are attracting 20-30% lower cost of capital from sustainability-focused institutional investors.",
+    sources: [
+      {
+        label: "UNFCCC – Carbon Markets (Article 6)",
+        url: "https://unfccc.int/topics/carbon-credits/the-paris-agreement/article-6",
+      },
+      {
+        label: "World Bank – State and Trends of Carbon Pricing",
+        url: "https://openknowledge.worldbank.org/handle/10986/41544",
+      },
+      {
+        label: "Gold Standard – Carbon Credits",
+        url: "https://www.goldstandard.org",
+      },
+      {
+        label: "IETA – International Emissions Trading Association",
+        url: "https://www.ieta.org",
+      },
+      { label: "GE3S – ESG & Carbon Advisory", url: "https://ge3s.org" },
+    ],
   },
   {
     id: "biodiversity-infrastructure",
@@ -442,6 +617,28 @@ export const newsletterContent: Newsletter[] = [
     },
     sustainabilityFact:
       "Nature-related risks threaten USD 44 trillion of economic value — more than half of global GDP — according to the World Economic Forum. Infrastructure and construction are two of the three sectors most dependent on nature, making biodiversity risk management a material financial concern for developers and investors alike.",
+    sources: [
+      {
+        label: "CBD – Convention on Biological Diversity",
+        url: "https://www.cbd.int",
+      },
+      {
+        label: "IPBES – Global Assessment Report",
+        url: "https://www.ipbes.net/global-assessment",
+      },
+      {
+        label: "IUCN – Infrastructure & Biodiversity",
+        url: "https://www.iucn.org/theme/business-and-biodiversity/our-work/infrastructure",
+      },
+      {
+        label: "Taskforce on Nature-related Financial Disclosures",
+        url: "https://tnfd.global",
+      },
+      {
+        label: "GE3S – Environmental Impact Assessment",
+        url: "https://ge3s.org",
+      },
+    ],
   },
   {
     id: "hydrogen-economy",
@@ -484,6 +681,28 @@ export const newsletterContent: Newsletter[] = [
     },
     sustainabilityFact:
       "Green hydrogen produced using solar electricity in the sunniest GCC locations has a carbon intensity of less than 1 kg CO2 per kg H2 — compared to 9-12 kg CO2 per kg H2 for natural gas reforming without CCS. At scale, GCC green hydrogen exports could displace 300 million tonnes of CO2 annually in European industries.",
+    sources: [
+      {
+        label: "IEA – Global Hydrogen Review 2024",
+        url: "https://www.iea.org/reports/global-hydrogen-review-2024",
+      },
+      {
+        label: "IRENA – Green Hydrogen",
+        url: "https://www.irena.org/Energy-Transition/Technology/Hydrogen",
+      },
+      {
+        label: "Hydrogen Council – Industry Reports",
+        url: "https://hydrogencouncil.com/en/study/hydrogen-insights",
+      },
+      {
+        label: "UAE National Hydrogen Strategy",
+        url: "https://u.ae/en/information-and-services/environment-and-energy/climate-change/uaenetzero2050/uae-hydrogen-leadership-roadmap",
+      },
+      {
+        label: "GE3S – Renewable Energy & Hydrogen Solutions",
+        url: "https://ge3s.org",
+      },
+    ],
   },
   {
     id: "esg-reporting-trends",
@@ -526,5 +745,24 @@ export const newsletterContent: Newsletter[] = [
     },
     sustainabilityFact:
       "Companies that align with ISSB sustainability standards are accessing capital at 50-80 basis points lower cost than non-disclosing peers, according to a 2025 analysis by the Global Sustainable Investment Alliance — translating to millions of dollars in annual interest savings for large borrowers.",
+    sources: [
+      {
+        label: "GRI – Global Reporting Initiative Standards",
+        url: "https://www.globalreporting.org/standards",
+      },
+      {
+        label: "ISSB – IFRS Sustainability Disclosure Standards",
+        url: "https://www.ifrs.org/groups/international-sustainability-standards-board",
+      },
+      {
+        label: "MSCI – ESG Ratings",
+        url: "https://www.msci.com/our-solutions/esg-investing/esg-ratings",
+      },
+      {
+        label: "TCFD – Task Force on Climate-related Financial Disclosures",
+        url: "https://www.fsb-tcfd.org",
+      },
+      { label: "GE3S – ESG Reporting Services", url: "https://ge3s.org" },
+    ],
   },
 ];

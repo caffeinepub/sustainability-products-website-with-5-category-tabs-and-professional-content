@@ -94,7 +94,7 @@ export function BlogSection({ onSelectPost }: BlogSectionProps) {
           className="mb-12 text-center"
         >
           <Badge className="mb-4 bg-primary/10 text-primary border-primary/20 hover:bg-primary/10">
-            GE3S Knowledge Hub
+            Global Energy and Environmental Engineering Services Knowledge Hub
           </Badge>
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4 leading-tight">
             Sustainability Insights

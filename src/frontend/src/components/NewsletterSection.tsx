@@ -19,7 +19,7 @@ export function NewsletterSection({
             Monthly Newsletter
           </div>
           <h1 className="text-3xl md:text-5xl font-bold mb-4">
-            GE3S Sustainability Newsletter
+            Global Energy and Environmental Engineering Services Newsletter
           </h1>
           <p className="text-lg md:text-xl text-primary-foreground/80 max-w-2xl mx-auto">
             Insights, Updates &amp; Solutions from the forefront of sustainable

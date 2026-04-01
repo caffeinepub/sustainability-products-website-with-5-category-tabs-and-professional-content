@@ -133,9 +133,10 @@ export function AboutUs() {
               Green Economy, Energy & Environmental Solutions
             </h1>
             <p className="text-lg md:text-xl text-primary-foreground/80 leading-relaxed">
-              GE3S is a leading UAE-based sustainability consultancy and
-              solutions provider, founded to accelerate the transition to a
-              green economy across the Middle East and beyond.
+              Global Energy and Environmental Engineering Services is a leading
+              UAE-based sustainability consultancy and solutions provider,
+              founded to accelerate the transition to a green economy across the
+              Middle East and beyond.
             </p>
           </motion.div>
         </div>
@@ -201,7 +202,7 @@ export function AboutUs() {
             </h2>
             <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
               The principles that guide every decision, project, and partnership
-              at GE3S.
+              at Global Energy and Environmental Engineering Services.
             </p>
           </motion.div>
 
@@ -317,11 +318,11 @@ export function AboutUs() {
             transition={{ duration: 0.5 }}
           >
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6 text-center">
-              About GE3S
+              About Global Energy and Environmental Engineering Services
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
               <p>
-                GE3S (Green Economy, Energy & Environmental Solutions) was
+                Global Energy and Environmental Engineering Services (GE3S) was
                 founded with a singular purpose: to bridge the gap between
                 economic ambition and environmental responsibility across the
                 Middle East. Based in Dubai's vibrant Jumeirah Lakes Towers

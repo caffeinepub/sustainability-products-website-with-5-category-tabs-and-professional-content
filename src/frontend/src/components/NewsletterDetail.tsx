@@ -52,7 +52,8 @@ export function NewsletterDetail({
             <div className="flex items-center gap-2 mb-1">
               <Mail size={14} />
               <span className="text-xs font-medium uppercase tracking-widest opacity-80">
-                GE3S Sustainability Newsletter
+                Global Energy and Environmental Engineering Services
+                Sustainability Newsletter
               </span>
             </div>
             <p className="text-sm font-semibold opacity-90">
@@ -132,7 +133,7 @@ export function NewsletterDetail({
           {/* Service Spotlight */}
           <div className="bg-gradient-to-br from-primary/5 to-primary/10 border border-primary/20 rounded-xl p-6 mb-8">
             <p className="text-xs font-bold text-primary uppercase tracking-widest mb-2">
-              Featured GE3S Solution
+              Featured Solution
             </p>
             <h3 className="text-base md:text-lg font-bold text-foreground mb-3">
               {newsletter.serviceSpotlight.serviceName}
@@ -148,17 +149,44 @@ export function NewsletterDetail({
             </Button>
           </div>
 
+          {/* References */}
+          {newsletter.sources && newsletter.sources.length > 0 && (
+            <div className="mb-8">
+              <div className="bg-primary/10 border-l-4 border-primary rounded-r-md px-4 py-2 mb-3">
+                <h2 className="text-sm md:text-base font-semibold text-primary">
+                  References & Sources
+                </h2>
+              </div>
+              <ol className="list-decimal list-inside space-y-2">
+                {newsletter.sources.map((source) => (
+                  <li key={source.url} className="text-sm text-foreground/80">
+                    <a
+                      href={source.url}
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      className="text-primary hover:underline"
+                    >
+                      {source.label}
+                    </a>
+                  </li>
+                ))}
+              </ol>
+            </div>
+          )}
+
           {/* Email Divider */}
           <hr className="border-border mb-8" />
 
           {/* Newsletter Footer */}
           <div className="text-center">
             <img
-              src="/assets/generated/ge3s-logo.dim_200x200.png"
-              alt="GE3S"
-              className="h-12 w-12 object-contain mx-auto mb-3 rounded-lg"
+              src="/assets/generated/ge3s-logo-new.png"
+              alt="Global Energy and Environmental Engineering Services"
+              className="h-16 w-auto object-contain"
             />
-            <p className="text-sm font-semibold text-foreground mb-1">GE3S</p>
+            <p className="text-sm font-semibold text-foreground mb-1">
+              Global Energy and Environmental Engineering Services
+            </p>
             <p className="text-xs text-muted-foreground mb-3">
               Building a Sustainable Future
             </p>

@@ -14,7 +14,8 @@ export function Footer() {
           {/* Company Info */}
           <div className="text-center md:text-left">
             <p className="text-sm text-muted-foreground">
-              © {currentYear} ge3s. All rights reserved.
+              © {currentYear} Global Energy and Environmental Engineering
+              Services. All rights reserved.
             </p>
           </div>
 
