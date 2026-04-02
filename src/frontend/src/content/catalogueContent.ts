@@ -393,6 +393,45 @@ export const catalogueContent: CategoryContent[] = [
         image:
           "https://images.unsplash.com/photo-1567427017947-545c5f8d16ad?w=600&h=400&fit=crop&auto=format",
       },
+      {
+        sku: "GE-RE-009",
+        name: "Solar Street Lights",
+        description:
+          "All-in-one solar street lighting systems with monocrystalline PV panel, lithium iron phosphate (LiFePO4) battery, and high-luminance LED lamp. Features intelligent motion sensing with dimming from 100% to 30% during low-traffic hours, extending battery life. IP66-rated housing with corrosion-resistant die-cast aluminum, pole heights from 4–10 m, lumen output 3,000–12,000 lm, and autonomy of 3–5 cloudy days. Ideal for roads, car parks, residential streets, and commercial areas across the UAE.",
+        price: {
+          aed: "AED 1,850 – 6,800",
+          usd: "USD 504 – 1,852",
+          isQuote: false,
+          note: "excl. VAT per unit",
+        },
+        image: "/assets/generated/product-solar-street-light.dim_600x400.jpg",
+      },
+      {
+        sku: "GE-RE-010",
+        name: "LED Lights",
+        description:
+          "Commercial and industrial LED lighting solutions including LED panels, high-bay fittings, tri-proof linear lights, streetlights, and retrofit bulbs. Delivering 130–180 lm/W efficacy, CRI ≥ 80, and a rated lifespan of 50,000+ hours, these fixtures reduce energy consumption by up to 70% versus conventional lighting. Available in colour temperatures from 3000 K (warm white) to 6500 K (daylight), with DALI/0-10 V dimming, IP65 ratings for outdoor use, and DLC/CE certifications. Suitable for offices, warehouses, factories, streets, and hospitality environments.",
+        price: {
+          aed: "AED 55 – 2,750",
+          usd: "USD 15 – 749",
+          isQuote: false,
+          note: "excl. VAT per fixture",
+        },
+        image: "/assets/generated/product-led-lights.dim_600x400.jpg",
+      },
+      {
+        sku: "GE-RE-011",
+        name: "Solar Daylighting Systems",
+        description:
+          "Tubular daylighting devices (TDDs) and hybrid solar fiber-optic systems that harvest natural sunlight from rooftop collectors and transmit it indoors via highly reflective tubes or optical fibers, eliminating artificial lighting during daylight hours. Dome diameters from 250–530 mm deliver 100–1,500 lux to interior spaces up to 9.3 m² per unit. The optional hybrid LED module maintains illumination at night with the same fixture. ESTIDAMA Pearl-credit eligible, zero operating energy, and effective in UAE's high solar irradiance environment (GHI > 2,000 kWh/m²/year).",
+        price: {
+          aed: "AED 1,285 – 5,500",
+          usd: "USD 350 – 1,498",
+          isQuote: false,
+          note: "excl. VAT per unit",
+        },
+        image: "/assets/generated/product-solar-daylight.dim_600x400.jpg",
+      },
     ],
     applications: [
       "Commercial rooftop and ground-mount solar installations",

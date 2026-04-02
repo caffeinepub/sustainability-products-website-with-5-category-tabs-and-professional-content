@@ -66,6 +66,9 @@ const supplierOverrides: Record<string, string> = {
   "Hybrid Power Systems": "ABB Ltd",
   "Solar Water Heating": "Viessmann Group",
   "Charge Controllers & Combiners": "Victron Energy BV",
+  "Solar Street Lights": "Jinhua Sunmaster Solar Technology Co., Ltd.",
+  "LED Lights": "Philips Lighting (Signify)",
+  "Solar Daylighting Systems": "Solatube International Inc.",
   "Air Quality Monitoring Stations": "Thermo Fisher Scientific",
   "Water Quality Sensors": "Hach Company",
   "Energy Management Systems (EMS)": "Schneider Electric SE",
@@ -121,6 +124,9 @@ const leadTimeOverrides: Record<string, string> = {
   "Hybrid Solar-BESS Solutions": "On request",
   "EV Fleet Charging BESS": "On request",
   "Microgrid & Island Mode BESS": "On request",
+  "Solar Street Lights": "3–5 weeks",
+  "LED Lights": "1–3 weeks",
+  "Solar Daylighting Systems": "3–4 weeks",
 };
 
 export const productListData: ProductListItem[] = catalogueContent.flatMap(
