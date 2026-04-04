@@ -13,6 +13,7 @@ const PUBLIC_TABS = [
   { id: "products", title: "Products" },
   { id: "blog", title: "Blog" },
   { id: "newsletter", title: "Newsletter" },
+  { id: "brochures", title: "Brochures" },
   { id: "about", title: "About Us" },
   { id: "contact", title: "Contact Us" },
 ];

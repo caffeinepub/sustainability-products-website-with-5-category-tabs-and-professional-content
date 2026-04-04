@@ -3,6 +3,7 @@ import { useState } from "react";
 import { AboutUs } from "./components/AboutUs";
 import { BlogArticle } from "./components/BlogArticle";
 import { BlogSection } from "./components/BlogSection";
+import { BrochuresTab } from "./components/BrochuresTab";
 import { Chatbot } from "./components/Chatbot";
 import { ContactUs } from "./components/ContactUs";
 import { Footer } from "./components/Footer";
@@ -17,6 +18,7 @@ type TabId =
   | "products"
   | "blog"
   | "newsletter"
+  | "brochures"
   | "about"
   | "contact"
   | "productList";
@@ -67,6 +69,7 @@ function App() {
               <BlogSection onSelectPost={(id) => setBlogPostId(id)} />
             ))}
 
+          {activeTab === "brochures" && <BrochuresTab />}
           {activeTab === "about" && <AboutUs />}
           {activeTab === "contact" && <ContactUs />}
           {activeTab === "productList" && (
