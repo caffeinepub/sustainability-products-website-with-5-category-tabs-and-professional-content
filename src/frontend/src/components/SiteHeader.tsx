@@ -41,14 +41,17 @@ export function SiteHeader({
       <header className="sticky top-0 z-40 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
         <div className="container mx-auto px-4">
           <div className="flex h-16 items-center justify-between md:h-20">
-            {/* Logo */}
-            <div className="flex items-center gap-3">
+            {/* Logo + Tagline */}
+            <div className="flex flex-col items-start gap-0.5">
               <img
                 src="/assets/generated/ge3s-logo-new.png"
                 alt="Global Energy and Environmental Engineering Services"
                 className="h-10 w-auto md:h-12 object-contain"
                 style={{ maxWidth: "220px" }}
               />
+              <p className="hidden md:block text-[10px] font-light italic tracking-widest text-primary/70 pl-0.5 leading-tight">
+                Powering a Sustainable Future
+              </p>
             </div>
 
             {/* Desktop Navigation */}
