@@ -80,7 +80,12 @@ function App() {
           )}
         </main>
 
-        <Footer />
+        <Footer
+          onNavigate={handleTabChange}
+          onNavigateToProducts={() => {
+            handleTabChange("products");
+          }}
+        />
         <Chatbot onNavigateToContact={() => handleTabChange("contact")} />
         <Toaster />
       </div>
