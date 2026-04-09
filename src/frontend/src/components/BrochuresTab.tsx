@@ -19,6 +19,8 @@ const COVER_IMAGES: Record<string, string> = {
   construction:
     "/assets/generated/brochure-cover-construction.dim_1200x800.jpg",
   bess: "/assets/generated/brochure-cover-bess.dim_1200x800.jpg",
+  "sustainable-candles":
+    "/assets/generated/brochure-cover-sustainable-candles.dim_1200x800.jpg",
 };
 
 const CATEGORY_DESCRIPTIONS: Record<string, string> = {
@@ -33,6 +35,8 @@ const CATEGORY_DESCRIPTIONS: Record<string, string> = {
   construction:
     "Recycled insulation, low-VOC coatings, photocatalytic concrete, bamboo composites, and cool roof systems.",
   bess: "Lithium-ion storage, vanadium redox batteries, containerized BESS, residential storage, and grid-scale solutions.",
+  "sustainable-candles":
+    "Handcrafted soy wax jar candles, pillar candles, Urli floating candles, eco-concrete vessels, aromatherapy wax cubes, and botanical sachets.",
 };
 
 export function BrochuresTab() {

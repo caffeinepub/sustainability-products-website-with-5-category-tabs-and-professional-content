@@ -8,6 +8,7 @@ export function getCategoryAccentColor(id: string): string {
     monitoring: "#6a0dad",
     construction: "#556b2f",
     bess: "#0d6e8a",
+    "sustainable-candles": "#8B5E3C",
   };
   return colors[id] ?? "#2d6a4f";
 }
@@ -20,6 +21,7 @@ function getCategoryLightColor(id: string): string {
     monitoring: "#ede7f6",
     construction: "#dde8c3",
     bess: "#cceef8",
+    "sustainable-candles": "#FDF3E7",
   };
   return colors[id] ?? "#d8f3dc";
 }
@@ -32,6 +34,7 @@ function getCategoryIcon(id: string): string {
     monitoring: "\ud83d\udce1",
     construction: "\ud83c\udfd7\ufe0f",
     bess: "\ud83d\udd0b",
+    "sustainable-candles": "\ud83d\udd6f\ufe0f",
   };
   return icons[id] ?? "\ud83c\udf31";
 }
@@ -44,6 +47,7 @@ function getCategoryTagline(id: string): string {
     monitoring: "Intelligence for a Healthier Environment",
     construction: "Building Green for a Better Future",
     bess: "Reliable Energy Storage Solutions",
+    "sustainable-candles": "Pure Light. Pure Purpose. Pure GE3S.",
   };
   return taglines[id] ?? "Sustainable Solutions for a Better Tomorrow";
 }
@@ -117,6 +121,13 @@ function getWhyChooseUs(
         icon: "\ud83d\udd0b",
         title: "Grid Integration",
         text: "Seamless integration with existing grid infrastructure and renewable energy sources.",
+      },
+    ],
+    "sustainable-candles": [
+      {
+        icon: "\ud83c\udf3f",
+        title: "100% Natural Materials",
+        text: "Every product is handcrafted from renewable, biodegradable, and non-toxic materials — safe for people and the planet.",
       },
     ],
   };

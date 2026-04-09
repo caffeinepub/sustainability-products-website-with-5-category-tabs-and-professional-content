@@ -1784,4 +1784,162 @@ export const catalogueContent: CategoryContent[] = [
       "Data center and hospital resilience power systems",
     ],
   },
+  {
+    id: "sustainable-candles",
+    title: "Sustainable Candles",
+    icon: "🕯️",
+    headline: "Illuminate Responsibly — Natural, Sustainable, Beautiful",
+    intro:
+      "GE3S brings its sustainability ethos to the world of artisan candle craft. Our Sustainable Candles collection is born from a belief that the smallest everyday choices — the candle you light at home, the fragrance you choose to fill your space — can carry a powerful environmental message. Every product in this collection is handcrafted using natural, renewable, and biodegradable materials, minimising our footprint while maximising the sensory experience. From 100% soy wax jar candles to sculptural pillar candles, floating Urli designs to industrial eco-concrete vessels, and aromatic soy wax cubes to delicate botanical sachets — each piece tells a story of responsible luxury. Our candles burn cleaner than traditional paraffin, last longer, and leave no toxic residue. Packaging is minimal, recyclable, or reusable. At GE3S, sustainability is not an afterthought — it is the foundation of every design decision. Whether you're sourcing gifts for corporate events, curating a spa experience, decorating a boutique hotel, or simply seeking a cleaner home — our Sustainable Candles collection offers beauty with purpose.",
+    aboutGE3S:
+      "Global Energy and Environmental Engineering Services (GE3S) is a UAE-based sustainability company dedicated to transforming how the world produces, uses, and thinks about energy and materials. With a portfolio spanning renewable energy, waste management, environmental monitoring, and eco-friendly materials, GE3S now extends its mission to everyday consumer products — starting with our handcrafted Sustainable Candles collection. Every GE3S product, from solar panels to soy wax sachets, is designed with the planet in mind. Visit us at www.ge3s.org or reach us at info@ge3s.org.",
+    productGroups: [
+      {
+        sku: "GE-SC-001",
+        name: "100% Soy Wax Jar Candles",
+        shortPitch:
+          "Clean-burning, long-lasting soy wax candles in elegant glass jars — crafted for homes and spaces that care about the environment.",
+        description:
+          "Made from 100% pure soy wax, these jar candles burn cleaner and longer than paraffin alternatives. Each candle is hand-poured into reusable glass jars, scented with natural fragrance oils, and designed to emit zero harmful toxins. A sustainable choice for conscious consumers.",
+        keyBenefits: [
+          "100% natural soy wax — clean, toxin-free burn",
+          "Longer burn time than paraffin candles",
+          "Reusable glass jar — zero waste packaging",
+          "Available in multiple natural fragrances",
+        ],
+        typicalApplications: [
+          "Home décor and ambiance",
+          "Wellness & spa settings",
+          "Corporate gifting",
+          "Retail & lifestyle stores",
+        ],
+        price: { isQuote: true, note: "Request a Quote — info@ge3s.org" },
+        image:
+          "https://images.unsplash.com/photo-1603006905003-be475563bc59?w=600&h=400&fit=crop&auto=format",
+      },
+      {
+        sku: "GE-SC-002",
+        name: "100% Natural Soy Wax Pillar Candles",
+        shortPitch:
+          "Sculptural, freestanding pillar candles made from 100% natural soy wax — a stunning centrepiece that honours the planet.",
+        description:
+          "These freestanding soy wax pillar candles are crafted without containers, making them versatile for any décor setting. Free from petroleum-based paraffin, they offer a cleaner, slower burn and are biodegradable. Perfect for events, home interiors, and eco-conscious gifting.",
+        keyBenefits: [
+          "Freestanding, container-free design",
+          "Biodegradable and eco-certified soy wax",
+          "Slow, even burn for extended use",
+          "Ideal for events, displays, and gifting",
+        ],
+        typicalApplications: [
+          "Wedding & event decorations",
+          "Interior design displays",
+          "Eco-friendly gifting",
+          "Hospitality & hotel ambiance",
+        ],
+        price: { isQuote: true, note: "Request a Quote — info@ge3s.org" },
+        image:
+          "https://images.unsplash.com/photo-1567016526105-22da7c13161a?w=600&h=400&fit=crop&auto=format",
+      },
+      {
+        sku: "GE-SC-003",
+        name: "Urli Candle",
+        shortPitch:
+          "Inspired by traditional Indian Urli vessels, these floating candles blend cultural heritage with eco-friendly artisanship.",
+        description:
+          "The Urli Candle is a handcrafted floating candle set designed to rest in a shallow Urli bowl filled with water and flowers. Made from natural wax and dipped in organic dyes, they bring an authentic, culturally rich aesthetic to any space while staying true to sustainability principles.",
+        keyBenefits: [
+          "Handcrafted floating candle design",
+          "Made with natural wax and organic dyes",
+          "Culturally inspired, artisan-crafted",
+          "Creates a serene, wellness-focused ambiance",
+        ],
+        typicalApplications: [
+          "Festive & cultural celebrations",
+          "Spa and wellness centres",
+          "Hotel lobby and resort décor",
+          "Sustainable gifting sets",
+        ],
+        price: { isQuote: true, note: "Request a Quote — info@ge3s.org" },
+        image:
+          "https://images.unsplash.com/photo-1612198188060-c7c2a3b66eae?w=600&h=400&fit=crop&auto=format",
+      },
+      {
+        sku: "GE-SC-004",
+        name: "Eco-Concrete Candle",
+        shortPitch:
+          "Hand-poured using sustainable casting techniques into textured concrete vessels — a bold, industrial-meets-nature aesthetic.",
+        description:
+          "The Eco-Concrete Candle pairs natural soy wax with sustainably sourced, low-carbon concrete vessels. Each piece is hand-poured and one-of-a-kind. The concrete container doubles as a planter or pen holder after the candle burns out, ensuring zero waste. A favourite among architects and interior designers.",
+        keyBenefits: [
+          "Sustainable low-carbon concrete vessel",
+          "Hand-poured, one-of-a-kind finish",
+          "Multi-use container after candle life ends",
+          "Industrial-chic aesthetic for modern interiors",
+        ],
+        typicalApplications: [
+          "Modern office & studio spaces",
+          "Architectural and design gifting",
+          "Sustainable corporate branding",
+          "Boutique retail & lifestyle stores",
+        ],
+        price: { isQuote: true, note: "Request a Quote — info@ge3s.org" },
+        image:
+          "https://images.unsplash.com/photo-1481540564293-77c3c2ccd8a4?w=600&h=400&fit=crop&auto=format",
+      },
+      {
+        sku: "GE-SC-005",
+        name: "The Pure Glow Soy Collection",
+        shortPitch:
+          "Discover the power of aromatherapy in compact, meltable soy wax cubes — scented to soothe, energize, and restore.",
+        description:
+          "The Pure Glow Soy Collection features artisan-crafted soy wax melt cubes infused with therapeutic essential oil blends. Designed for use with wax warmers, each cube delivers room-filling fragrance without an open flame. A safe, sustainable alternative to synthetic air fresheners.",
+        keyBenefits: [
+          "100% soy wax melt cubes with essential oils",
+          "Flame-free aromatherapy solution",
+          "Long-lasting fragrance — superior throw",
+          "Safe for homes with children and pets",
+        ],
+        typicalApplications: [
+          "Home aromatherapy and wellness routines",
+          "Yoga studios and meditation spaces",
+          "Office air freshening",
+          "Health & wellness retail",
+        ],
+        price: { isQuote: true, note: "Request a Quote — info@ge3s.org" },
+        image:
+          "https://images.unsplash.com/photo-1602524205612-4ba1dcb26754?w=600&h=400&fit=crop&auto=format",
+      },
+      {
+        sku: "GE-SC-006",
+        name: "Handcrafted Soy Wax Sachets",
+        shortPitch:
+          "Delicate, fragrant soy wax sachets — a sustainable alternative to synthetic fabric softeners and drawer fresheners.",
+        description:
+          "These handcrafted sachets are made from soy wax blended with natural botanicals and essential oils, pressed into decorative shapes. Placed in drawers, wardrobes, or luggage, they release a gentle, lasting fragrance while keeping synthetic chemicals out of your everyday life.",
+        keyBenefits: [
+          "Natural soy wax with botanicals and essential oils",
+          "Zero synthetic chemicals or plastic packaging",
+          "Long-lasting subtle fragrance for enclosed spaces",
+          "Decorative shapes — doubles as a gift",
+        ],
+        typicalApplications: [
+          "Home wardrobe and drawer freshening",
+          "Luggage and travel accessories",
+          "Eco-friendly gifting and hampers",
+          "Sustainable retail and lifestyle brands",
+        ],
+        price: { isQuote: true, note: "Request a Quote — info@ge3s.org" },
+        image:
+          "https://images.unsplash.com/photo-1545457930-f5e95bde5981?w=600&h=400&fit=crop&auto=format",
+      },
+    ],
+    applications: [
+      "Sustainable gifting and corporate hampers",
+      "Luxury wellness and spa centres",
+      "Eco-conscious home décor",
+      "Hotels, resorts, and boutique hospitality",
+      "Retail lifestyle and zero-waste stores",
+      "Festive and cultural celebrations",
+    ],
+  },
 ];
